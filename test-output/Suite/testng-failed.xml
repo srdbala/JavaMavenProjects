@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="datePickIn" value="05/01/2022"/>
+    <parameter name="firstname" value="bala"/>
+    <parameter name="cvv" value="123"/>
+    <parameter name="address" value="Coimbatore"/>
+    <parameter name="adults" value="1 - One"/>
+    <parameter name="cardType" value="VISA"/>
+    <parameter name="url" value="https://adactinhotelapp.com/"/>
+    <parameter name="lastname" value="g"/>
+    <parameter name="expMonth" value="December"/>
+    <parameter name="password" value="bala@123"/>
+    <parameter name="cardNum" value="9876543210012340"/>
+    <parameter name="expYear" value="2022"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="hotel" value="Hotel Sunshine"/>
+    <parameter name="datePickOut" value="07/01/2022"/>
+    <parameter name="location" value="London"/>
+    <parameter name="numOfRooms" value="1 - One"/>
+    <parameter name="roomType" value="Super Deluxe"/>
+    <parameter name="username" value="balag123"/>
+    <parameter name="child" value="0 - None"/>
+    <classes>
+      <class name="org.test.AdactinUsingTestingXML">
+        <methods>
+          <include name="testBookHotelPage" invocation-numbers="0"/>
+          <include name="testBookingConfirmPage"/>
+        </methods>
+      </class> <!-- org.test.AdactinUsingTestingXML -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

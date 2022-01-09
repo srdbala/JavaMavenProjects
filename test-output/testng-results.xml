@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20656" started-at="2022-01-09T11:04:45Z" finished-at="2022-01-09T11:05:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20656" started-at="2022-01-09T11:04:45Z" finished-at="2022-01-09T11:05:06Z">
+      <class name="org.test.AdactinUsingTestingXML">
+        <test-method status="PASS" signature="testLaunch(java.lang.String, java.lang.String)[pri:1, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testLaunch" duration-ms="11091" started-at="2022-01-09T11:04:45Z" finished-at="2022-01-09T11:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunch -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String, java.lang.String)[pri:2, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testLoginPage" duration-ms="1064" started-at="2022-01-09T11:04:56Z" finished-at="2022-01-09T11:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[balag123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bala@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testSearchHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testSearchHotelPage" duration-ms="1459" started-at="2022-01-09T11:04:57Z" finished-at="2022-01-09T11:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[05/01/2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[07/01/2022]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0 - None]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchHotelPage -->
+        <test-method status="PASS" signature="testSelectHotelPage()[pri:4, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testSelectHotelPage" duration-ms="636" started-at="2022-01-09T11:04:59Z" finished-at="2022-01-09T11:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotelPage -->
+        <test-method status="PASS" signature="testBookHotelPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testBookHotelPage" duration-ms="877" started-at="2022-01-09T11:04:59Z" finished-at="2022-01-09T11:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210012340]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookHotelPage -->
+        <test-method status="PASS" signature="testBookingConfirmPage()[pri:6, instance:org.test.AdactinUsingTestingXML@71318ec4]" name="testBookingConfirmPage" duration-ms="5447" started-at="2022-01-09T11:05:00Z" finished-at="2022-01-09T11:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingConfirmPage -->
+      </class> <!-- org.test.AdactinUsingTestingXML -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
